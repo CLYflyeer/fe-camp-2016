@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>C</title>
+    <style>
+        html{
+            width: 100%;
+            background: url("88084-106.jpg");
+            background-size: cover;
+        }
+        .first{
+            padding: 20px;
+            text-align: center;
+            background: rgba(255,255,255,0.3);
+        }
+        @keyframes right {
+            from{
+                margin-left: 0px;
+                opacity: 1;
+            }
+            50%{
+                margin-left: 1em;
+                opacity: 0.3;
+                font-size: 150px;
+            }
+            to{
+                margin-left: 0px;
+                opacity: 1;
+            }
+        }
+        .dh1{
+        //display: inline-block;
+            float: left;
+            width: 20%;
+            height: 100px;
+        //top: 50%;
+        //left: 50%;
+            margin-top: -0.5em;
+            font: normal normal 48px/1 Helvetica;
+            color: red;
+            animation: right 3s ease infinite;
+        }
+        .nr1{
+            display: inline-block;
+            float: right;
+            border-right: 20px;
+            margin-left: -100px;
+            margin-top: 175px;
+            width: 150px;
+            background: rgba(255,255,255,0.6);
+            border-radius: 10%;
+            text-align: center;
+        }
+        .second{
+            float: left;
+            margin: 0.5%;
+            width: 49%;
+            height: 310px;
+            overflow: hidden;
+            background: rgba(255,255,255,0.4);
+        }
+        .wnr{
+            float: right;
+            min-width: 140px;
+        }
+        .nr1:hover{
+            transform: rotate(-45deg);
+
+        }
+        a:hover{
+            color: black;
+        }
+        a{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="first">
+    <h1><a href="task0006.html" style="color: blueviolet">计算机语言（部分）</a></h1>
+</div>
+<div class="second">
+    <p>C语言是Dennis Ritchie在七十年代创建的，它功能更强大且与ALGOL保持更连续的继承性，而ALGOL则是COBOL和FORTRAN的结构化继承者。
+        C语言被设计成一个比它的前辈更精巧、更简单的版本，它适于编写系统级的程序，比如操作系统。
+        在此之前，操作系统是使用汇编语言编写的，而且不可移植。
+        C语言是第一个使得系统级代码移植成为可能的编程语言。
+        优点：有益于编写小而快的程序。很容易与汇编语言结合。具有很高的标准化，因此其他平台上的各版本非常相似。
+        缺点：不容易支持面向对象技术。语法有时会非常难以理解，并造成滥用。
+        移植性：C语言的核心以及ANSI函数调用都具有移植性，但仅限于流程控制、内存管理和简单的文件处理。其他的东西都跟平台有关。
+        比如说，为Windows和Mac开发可移植的程序，用户界面部分就需要用到与系统相关的函数调用。
+        这一般意味着你必须写两次用户界面代码，不过还好有一些库可以减轻工作量</p>
+</div>
+<div class="second">
+    <div class="dh1">
+        <p>→</p>
+    </div>
+    <div class="wnr"><p></p></div>
+    <div class="nr1">
+        <h2><a href="C++.html">C++</a></h2>
+    </div>
+</div>
+<div class="second">
+    <div class="dh1">
+        <p>→</p>
+    </div>
+    <div class="wnr"><p></p></div>
+    <div class="nr1">
+        <h2><a href="Java.html">Java</a></h2>
+    </div>
+</div>
+<div class="second">
+    <div class="dh1">
+        <p>→</p>
+    </div>
+    <div class="wnr"><p></p></div>
+    <div class="nr1">
+        <h2><a href="C%23.html">C#</a></h2>
+    </div>
+</div>
+</body>
+</html>
