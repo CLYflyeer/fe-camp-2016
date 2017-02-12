@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS5</title>
+    <style>
+        html{
+            background: url("249008-106.jpg");
+            text-align: center;
+            height: 100%;
+        }
+        nav{
+            margin-top: 70px;
+            float: left;
+            width: 200px;
+            height: 100%;
+            background: rgba(255,255,255,0.4);
+            border-radius: 5px;
+        }
+        h1{
+            margin-bottom: 10px;
+        }
+        h2{
+            margin-bottom: 10px;
+            background: rgba(255,255,255,0.6);
+            height: 80px;
+            padding-top: 30px;
+            border-radius: 5px;
+        }
+        div{
+            float: right;
+            margin-right: 100px;
+            margin-top: 100px;
+            width: 70%;
+            height: 500px;
+            background: rgba(255,255,255,0.5);
+            font-size: 20px;
+        }
+    </style>
+    <script>
+        function myfunction(){
+            document.getElementById("nr").innerHTML=" "
+        }
+        function myfunction1(){
+            document.getElementById("nr").innerHTML="<p>C语言是Dennis Ritchie在七十年代创建的，它功能更强大且与ALGOL保持更连续的继承性，而ALGOL则是COBOL和FORTRAN的结构化继承者。 <br>C语言被设计成一个比它的前辈更精巧、更简单的版本，它适于编写系统级的程序，比如操作系统。 <br>在此之前>在此之前，操作系统是使用汇编语言编写的，而且不可移植。 <br>C语言是第一个使得系统级代码移植成为可能的编程语言>C语言是第一个使得系统级代码移植成为可能的编程语言。<br>优点：有益于编写小而快的程序。很容易与汇编语言结合。具有很高的标准化，因此其他平台上的各版本非常相似。<br>缺点：不容易支持面向对象技术。语法有时会非常难以理解，并造成滥用。<br>移植性：C语言的核心以及ANSI函数调用都具有移植性，但仅限于流程控制、内存管理和简单的文件处理。其他的东西都跟平台有关。<br>比如说，为Windows和Mac开发可移植的程序，用户界面部分就需要用到与系统相关的函数调用。<br>这一般意味着你必须写两次用户界面代码，不过还好有一些库可以减轻工作量</p>"
+        }
+        function myfunction2(){
+            document.getElementById("nr").innerHTML="<p>C++语言是具有面向对象特性的C语言的继承者。面向对象编程，或称OOP是结构化编程的下一步。<br>OO程序由对象组成，其中的对象是数据和函数离散集合。有许多可用的对象库存在，这使得编程简单得只需要将一些程序“建筑材料”堆在一起（至少理论上是这样）。<br>比如说，有很多的GUI和数据库的库实现为对象的集合。<br>优点：组织大型程序时比C语言好得多。很好的支持面向对象机制。通用数据结构，如链表和可增长的阵列组成的库减轻了由于处理低层细节的负担。<br>缺点：非常大而复杂。与C语言一样存在语法滥用问题。比C慢。大多数编译器没有把整个语言正确的实现。<br>移植性：比C语言好多了，但依然不是很乐观。因为它具有与C语言相同的缺点，大多数可移植性用户界面库都使用C++对象实现。</p>"
+        }
+        function myfunction3(){
+            document.getElementById("nr").innerHTML="Java是由Sun最初设计用于嵌入程序的可移植性“小C++”。在网页上运行小程序的想法着实吸引了不少人的目光，于是，这门语言迅速崛起。<br>事实证明，Java不仅仅适于在网页上内嵌动画—它是一门极好的完全的软件编程的小语言。<br>“虚拟机”机制、垃圾回收以及没有指针等使它很容易实现不易崩溃且不会泄漏资源的可靠程序。<br>虽然不是C++的正式续篇，Java从C++中借用了大量的语法。它丢弃了很多C++的复杂功能，从而形成一门紧凑而易学的语言。<br>不像C++，Java强制面向对象编程，要在Java里写非面向对象的程序就像要在Pascal里写“空心粉式代码”一样困难。<br>优点：二进制码可移植到其他平台。程序可以在网页中运行。内含的类库非常标准且极其健壮。自动分配合垃圾回收避免程序中资源泄漏。网上数量巨大的代码例程。<br>缺点：使用一个“虚拟机”来运行可移植的字节码而非本地机器码，程序将比真正编译器慢。<br>有很多技术（例如“即时”编译器）很大的提高了Java的速度，不过速度永远比不过机器码方案。<br>早期的功能，如AWT没经过慎重考虑，虽然被正式废除，但为了保持向后兼容不得不保留。<br>越高级的技术，造成处理低级的机器功能越困难，Sun为这门语言增加新的“受祝福”功能的速度实在太慢。<br>移植性：最好的，但仍未达到它本应达到的水平。低级代码具有非常高的可移植性，但是，很多UI及新功能在某些平台上不稳定"
+        }
+        function myfunction4(){
+            document.getElementById("nr").innerHTML="<p>C#是一种精确、简单、类型安全、面向对象的语言。其是.Net的代表性语言。什么是.Net呢？按照微软总裁兼首席执行官Steve Ballmer把它定义为：.Net代表一个集合，一个环境，它可以作为平台支持下一代Internet的可编程结构。C#的特点：<br>1.完全面向对象。<br>2.支持分布式。<br>3.自动管理内存机制。<br>4.安全性和可移植性。<br>5.指针的受限使用。<br>6.多线程。和Java类似，C#可以由一个主进程分出多个执行小系统的多线程。<br>C#是在Java流行起来后所诞生的一种新的程序开发语言。</p>"
+        }
+    </script>
+</head>
+<body>
+<nav>
+    <h1 style="color: white" onclick="myfunction()">计算机语言</h1>
+    <h2 onclick="myfunction1()">C</h2>
+    <h2 onclick="myfunction2()">C++</h2>
+    <h2 onclick="myfunction3()">Java</h2>
+    <h2 onclick="myfunction4()">C#</h2>
+</nav>
+<div id="nr"></div>
+</body>
+</html>
